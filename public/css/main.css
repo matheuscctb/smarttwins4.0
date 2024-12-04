@@ -1,0 +1,100 @@
+﻿    html {
+        min-height: 100%;
+        height: 100%;
+    }
+    
+    .fill {
+        height: calc(100vh - 100px);
+    }
+    
+    body {
+        padding-top: 60px;
+        /* space for the top nav bar */
+        margin: 0;
+        margin-right: 30px;
+        background-color: #f8f9fa!important
+    }
+    
+    #appBuckets {
+        overflow: auto;
+        width: 100%;
+        height: calc(100vh - 150px);
+    }
+    
+    #forgeViewer {
+        width: 100%;
+        height: 100%;
+        background-color: #F0F8FF;
+    }
+    /*Panelinfo*/
+    
+    .PanelInfoViewerExtensionIcon {
+        background-image: url(https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/white/png/24/info-circle.png);
+        background-size: 24px;
+        background-repeat: no-repeat;
+        background-position: center;
+        filter: grayscale(100%);
+    }
+    /*Panelinfo*/
+    
+    td {
+        color: #c8cbcf;
+    }
+    
+    .media {
+        background-color: #343a40!important;
+    }
+    
+    #btn-logout {
+        margin-right: 10px
+    }
+    
+    .sidebar {
+        margin-top: -10px
+    }
+    
+    [idStyle="mediaSitemaIntegrado"] {
+        margin-left: 10px;
+        background-color: #f8f9fa!important;
+        margin-top: 25px;
+    }
+    
+    [idStyle="imgSistemaIntegrado"] {
+        height: 65px;
+        width: 65px;
+        background-color: #f8f9fa!important;
+    }
+    
+    .sidebar-sticky {
+        margin-top: 51px;
+    }
+    
+    main {
+        margin-top: 10px;
+    }
+    
+    .progress-bar {
+        width: 0%;
+        font-size: large
+    }
+    
+    .teste {
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .testeRow {
+        margin-bottom: 5px;
+    }
+    
+    .radar {
+        margin-bottom: 5px;
+    }
+    
+    @media (min-width: 768px) {
+        .barra {}
+    }
+    
+    @media (min-width: 992px) {}
